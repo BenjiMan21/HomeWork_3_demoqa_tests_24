@@ -40,5 +40,6 @@ public class AutomationPracticeForm24 {
         $("[id=stateCity-wrapper]").find(byText("NCR")).click();
         $("[id=stateCity-wrapper]").find(byText("Select City")).click();
         $("[id=stateCity-wrapper]").find(byText("Delhi")).click();
+        $("[id=submit]").click();
     }
 }
